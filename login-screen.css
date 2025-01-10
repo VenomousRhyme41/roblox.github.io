@@ -1,0 +1,464 @@
+.top {
+  background-color: rgb(222, 225, 227);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 42.391px;
+    border-radius: 1px;
+  }
+
+  .logo {
+    height: 22px;
+    display: inline-block;
+    position: fixed;
+    left: 19px;
+    top: 9px;
+    cursor: pointer;
+  }
+
+  .text-top {
+    display: inline-block;
+    position: fixed;
+    left: 210px;
+    top: 11px;
+    font-family: 'Gotham SSm', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    font-weight: 500px;
+    cursor: pointer;
+    color: #393b3d;
+    background-color: rgb(222,225,227);
+    border: none;
+  }
+
+  .text-top1 {
+    display: inline-block;
+    position: fixed;
+    left: 380px;
+    top: 11px;
+    font-family: 'Gotham SSm', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    font-weight: 500px;
+    cursor: pointer;
+    color: #393b3d;
+  }
+
+  .text-top2 {
+    display: inline-block;
+    position: fixed;
+    left: 570px;
+    top: 11px;
+    font-family: 'Gotham SSm', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    font-weight: 500px;
+    line-height: 22px;
+    cursor: pointer;
+    color: #393b3d;
+  }
+  
+  .text-top3 {
+    display: inline-block;
+    position: fixed;
+    left: 710px;
+    top: 11px;
+    font-family: 'Gotham SSm', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    font-weight: 500px;
+    cursor: pointer;
+    color: #393b3d;
+  }
+
+  .text-top:hover {
+    border-bottom: black;
+    border-width: 9px;
+  }
+
+  .search-container {
+    display: inline-block;
+    position: fixed;
+    left: 830px;
+    top: 9px;
+    align-items: center;
+    height: 30px;
+    padding: 0 39px 0 8px;
+    box-shadow: none;
+    border-radius: 100px;
+  }
+
+  form {
+    width: 500px;
+  }
+
+  .search {
+    background: url("http://kodyrabatowe.wp.pl/img/ico/search_gr.png") top left     no-repeat;
+    width: 23%;
+    height: 8px;
+    position: fixed;
+    top: 5px;
+    left: 820px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color:rgba(57, 59, 61, 0.2);
+    opacity: 60%;
+    background-color: white;
+    font-size: 17px;
+    
+  }
+
+  .sign-up {
+    background-color: #00b06f;
+    border-width: 0px;
+    position: fixed;
+    top: 7px;
+    left: 1800px;
+    height: 30px;
+    border-radius: 8px;
+    width: 85px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .search-icon {
+    height: 18px;
+    position: fixed;
+    top: 11px;
+    left: 825px;
+    opacity: 32%;
+  }
+
+  .loginin {
+    position: fixed;
+    top: 55px;
+    left: 750px;
+    height: 480px;
+    text-align: center;
+    background-color: white;
+    width: 400px;
+  }
+
+  .login-text {
+    font-size: 32px;
+    font-family: 'Gotham SSm', sans-serif;
+    position: fixed;
+    top: 72px;
+   left: 815px;
+   font-weight: 800;
+   color: rgb(57,59,61);
+  }
+
+  .username {
+    position: fixed;
+    top: 90px;
+   left: 820px;
+   height: 12px;
+    border-radius: 8px;
+    width: 12px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .search-a {
+    background: url("http://kodyrabatowe.wp.pl/img/ico/search_gr.png") top left     no-repeat;
+    width: 18%;
+    height: 13px;
+    position: fixed;
+    top: 140px;
+    left: 765px;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color:rgba(57, 59, 61, 0.2);
+    opacity: 60%;
+    background-color: white;
+    font-size: 17px;
+  }
+
+  .search-ab {
+    background: url("http://kodyrabatowe.wp.pl/img/ico/search_gr.png") top left     no-repeat;
+    width: 18%;
+    height: 13px;
+    position: fixed;
+    top: 200px;
+    left: 765px;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color:rgba(57, 59, 61, 0.2);
+    opacity: 60%;
+    background-color: white;
+    font-size: 17px;
+  }
+
+  .password {
+    position: fixed;
+    top: 90px;
+   left: 820px;
+   height: 12px;
+    border-radius: 8px;
+    width: 12px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+  } 
+
+  .login-button {
+    width: 370px;
+    position: fixed;
+    top: 245px;
+   left: 765px;
+   height: 35px;
+   background-color: white;
+   font-family: 'Gotham SSm', sans-serif;
+   border-radius: 8px;
+   border-width: 0.5px;
+   font-weight: 500px;
+   font-size: 16px;
+   color: rgba(0, 0, 0, 0.6);
+   cursor: pointer;
+  }
+
+  .fagot {
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #393b3d;
+    width: 1000px;
+    position: fixed;
+    top: 290px;
+   left: 450px;
+  }
+
+  .fagot:hover {
+    text-decoration: underline;
+  }
+
+  .line {
+    width: 369px;
+    position: fixed;
+    top: 350px;
+   left: 765px;
+  }
+
+  .email-code{
+    width: 370px;
+    position: fixed;
+    top: 380px;
+   left: 765px;
+   height: 35px;
+   background-color: white;
+   font-family: 'Gotham SSm', sans-serif;
+   border-radius: 8px;
+   border-width: 0.5px;
+   font-weight: 500px;
+   font-size: 16px;
+   color: rgba(0, 0, 0, 0.6);
+   cursor: pointer;
+  }
+
+  .device {
+    width: 370px;
+    position: fixed;
+    top: 430px;
+   left: 765px;
+   height: 35px;
+   background-color: white;
+   font-family: 'Gotham SSm', sans-serif;
+   border-radius: 8px;
+   border-width: 0.5px;
+   font-weight: 500px;
+   font-size: 16px;
+   color: rgba(0, 0, 0, 0.6);
+   cursor: pointer;
+  }
+
+  .no-account {
+    font-family: 'Gotham SSm', sans-serif;
+    color: #393b3d;
+    font-weight: 400;
+    width: 410px;
+    position: fixed;
+    top: 470px;
+   left: 700px;
+   font-size: 16px;
+  }
+
+  .signup-text {
+    font-family: 'Gotham SSm', sans-serif;
+    color: #393b3d;
+    font-weight: 500;
+    width: 400px;
+    position: fixed;
+    top: 470px;
+   left: 840px;
+   font-size: 16px;
+  }
+
+  .signup-text:hover {
+    text-decoration: underline;
+  }
+
+  .text-below {
+    position: fixed;
+    top: 800px;
+   left: 450px;
+    width: 1000px;
+    height: 100px;
+  }
+
+  .bottom-text {
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #393b3d;
+    position: fixed;
+    top: 810px;
+   left: 500px;
+  }
+
+  .bottom-text1 {
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #393b3d;
+    position: fixed;
+    top: 810px;
+   left: 620px;
+  }
+
+  .bottom-text2 {
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #393b3d;
+    position: fixed;
+    top: 810px;
+   left: 700px;
+  }
+
+  .bottom-text3 {
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #393b3d;
+    position: fixed;
+    top: 810px;
+   left: 780px;
+  }
+
+  .bottom-text4 {
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #393b3d;
+    position: fixed;
+    top: 810px;
+   left: 880px;
+  }
+
+  .bottom-text5 {
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #393b3d;
+    position: fixed;
+    top: 810px;
+   left: 1000px;
+  }
+
+  .bottom-text6 {
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #393b3d;
+    position: fixed;
+    top: 810px;
+   left: 1080px;
+  }
+
+  .bottom-text7 {
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #393b3d;
+    position: fixed;
+    top: 810px;
+   left: 1170px;
+  }
+
+  .bottom-text8 {
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #393b3d;
+    position: fixed;
+    top: 810px;
+   left: 1310px;
+  }
+
+  .bottom-text:hover {
+    color: black;
+  }
+  
+  .bottom-text1:hover {
+    color: black;
+  }
+
+  .bottom-text2:hover {
+    color: black;
+  }
+
+  .bottom-text3:hover {
+    color: black;
+  }
+
+  .bottom-text4:hover {
+    color: black;
+  }
+
+  .bottom-text5:hover {
+    color: black;
+  }
+
+  .bottom-text6:hover {
+    color: black;
+  }
+
+  .bottom-text7:hover {
+    color: black;
+  }
+
+  .bottom-text8:hover {
+    color: black;
+  }
+
+  .bottom-line {
+    position: fixed;
+    top: 875px;
+   left: 465px;
+   width: 930px;
+   opacity: 50%;
+  }
+
+  .bottom-textt {
+    color: #393b3d;
+    font-size: 10px;
+    font-weight: 500;
+    width: 1000px;
+    position: fixed;
+    top: 900px;
+    font-family: 'Gotham SSm', sans-serif;
+  }
